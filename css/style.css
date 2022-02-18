@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding:0;
+    margin: 0;
+    background-color:#d1e8e2 ;
+    list-style:none;
+    box-sizing:border-box;
+}
+.container
+{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    text-align: center;
+}
+.container img{
+    margin-left: 10px;
+
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+a.button_1
+{
+    padding:9px;
+    background: black;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+	text-decoration:none;
+}
+.blue{
+    padding: 15px;
+    background:#2c3531;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+header{
+    background: color #116466;
+    color: black;
+    padding-top: 3px;
+    min-height: 70px;
+    border-bottom:white 3px solid;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+header li{
+    float:right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+
+}
+header #branding{
+    margin:0;
+}
+header nav{
+    float: right;
+    margin-top: -45px;
+    
+}
+header .highlight, header .current a{
+    color:black;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+	text-decoration:none;
+}
+
+
+#showcase{
+    min-height: 450px;
+    background:url("../img/done.jpg")no-repeat  0 -300px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 25px;
+}
+#youtube{
+    padding: 15px;
+    color: white;
+    background:#2c3531;
+}
+#youtube h1{
+    float: left;
+}
+#youtube form{
+    float: right;
+    margin-top: 15px;
+}
+#youtube input[type="name"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+} 
+
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+	color:white;
+
+}
+
+#boxes .box img{
+    width: 90px;
+}
+#boxes .box a{
+	text-decoration:none;
+	color:black;
+}
+
+aside#sidebar{
+    float: right;
+    width:30%;
+    margin-top: 10px;
+
+}
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:white;
+    background-color:#272727;
+    text-align: center;
+}
